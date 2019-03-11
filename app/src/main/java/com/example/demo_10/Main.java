@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class Main extends AppCompatActivity {
 
+    //TESTING THAT GIT CONNECTION IS WORKING.
     //declaring buttons
    private Button logIn;
    private Button signIn;
