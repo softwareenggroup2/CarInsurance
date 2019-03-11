@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">demo_1.0</string>
+    <string name="s_l_name">Sign Up \\ Log in</string>
+    <string name="login">Log in</string>
+    <string name="sign">Sign up</string>
+    <string name="log">Log in</string>
+    <string name="back_button">To menu</string>
+    <string name="menu">Menu</string>
+    <string name="log_incident">Log new incident</string>
+    <string name="view_incidents">View past incidents</string>
+    <string name="my_information">My information</string>
+    <string name="my_insurance_info">My insurance information</string>
+    <string name="incident_name">Random incident</string>
+    <string name="add_car">Add new car</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_view_pat_incidents">ViewPatIncidents</string>
+    <string name="title_activity_my_information">MyInformation</string>
+    <string name="backb">Back</string>
+    <string name="add_car_but">Add CAr</string>
+    <string name="logout">Log out</string>
+</resources>
