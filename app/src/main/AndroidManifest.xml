@@ -12,7 +12,6 @@
         <activity android:name=".RandomIncident"></activity>
         <activity android:name=".AddCar" />
         <activity android:name=".SignUp" />
-        <activity android:name=".LogIn" />
         <activity android:name=".MyInsuranceInfo" />
         <activity
             android:name=".MyInformation"

@@ -15,17 +15,29 @@
         android:text="@string/s_l_name"
         android:textSize="50sp" />
 
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_marginHorizontal="@dimen/log_sign_page"/>
+
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:layout_marginHorizontal="@dimen/log_sign_page"/>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/b_signin"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sign" />
 
         <Button
             android:id="@+id/b_login"
@@ -35,6 +47,13 @@
             android:text="@string/log" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_sign_up"
+        android:textSize="15sp" />
 
 
 </LinearLayout>
