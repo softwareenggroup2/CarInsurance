@@ -14,14 +14,14 @@ public class Fragment_sign_up_insurance_info extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_sign_up_personal_info,null);
+        return inflater.inflate(R.layout.fragment_sign_up_insurance_info,null);
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        view.findViewById(R.id.b_signup_next).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.button_signup_submit).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(),LoggedInMain.class);

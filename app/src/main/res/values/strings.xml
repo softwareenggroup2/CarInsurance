@@ -47,7 +47,7 @@
     <string name="button_male">Male</string>
     <string name="button_female">Female</string>
     <string name="button_next">Next</string>
-    <string name="text_car_info">Imput car information</string>
+    <string name="text_car_info">Input car information</string>
     <string name="text_input_car_model">Model</string>
     <string name="text_input_car_make">Make</string>
     <string name="text_input_car_registration_num">Registration number</string>
