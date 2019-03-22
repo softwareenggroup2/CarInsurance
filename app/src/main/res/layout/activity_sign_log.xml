@@ -28,10 +28,10 @@
         android:id="@+id/password_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/log_sign_page"
         android:ems="10"
-        android:hint="@string/enter_password"
-        android:inputType="textPassword"
-        android:layout_marginHorizontal="@dimen/log_sign_page"/>
+        android:hint="@string/password"
+        android:inputType="textPassword" />
 
     <LinearLayout
         android:layout_width="wrap_content"

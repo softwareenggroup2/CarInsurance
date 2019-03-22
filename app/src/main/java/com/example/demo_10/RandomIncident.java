@@ -1,31 +1,29 @@
 package com.example.demo_10;
 
 import android.content.Intent;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 
-public class RandomIncident extends AppCompatActivity {
+public class RandomIncident extends Fragment {
 
-    //declaring buttons
-    private Button toMenu;
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.random_incident,null);
+    }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.random_incident);
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
 
-        //setting buttons to their id's
-        toMenu = (Button)findViewById(R.id.b_to_menu);
 
-        //setting listeners for buttons
-        toMenu.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent menu = new Intent(RandomIncident.this, LoggedInMain.class);
-                startActivity(menu);
-            }
-        });
     }
 }

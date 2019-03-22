@@ -1,87 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
     android:gravity="center|top"
-    android:orientation="vertical"
-    android:layout_marginTop="40dp">
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:text="@string/sign"
         android:textSize="40sp" />
 
-    <TextView
-        android:id="@+id/textView9"
+    <FrameLayout
+        android:id="@+id/sign_up_frame"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/log_sign_page"
-        android:text="@string/text_enter_email" />
+        android:layout_height="match_parent" />
 
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/log_sign_page"
-        android:ems="10"
-        android:hint="@string/email"
-        android:inputType="textEmailAddress" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/log_sign_page"
-        android:text="@string/text_enter_password" />
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/log_sign_page"
-        android:ems="10"
-        android:hint="@string/enter_password"
-        android:inputType="textPassword" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/log_sign_page"
-        android:text="@string/text_enter_password_check" />
-
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/log_sign_page"
-        android:ems="10"
-        android:hint="@string/enter_password"
-        android:inputType="textPassword" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/b_back"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/backb" />
-
-        <Button
-            android:id="@+id/b_signin"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/sign" />
-    </LinearLayout>
 
 </LinearLayout>

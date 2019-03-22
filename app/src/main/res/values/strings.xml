@@ -18,14 +18,23 @@
     <string name="backb">Back</string>
     <string name="add_car_but">Add CAr</string>
     <string name="logout">Log out</string>
+    <string name="new_sign_up">Don\'t have an account? Sign up</string>
+
+
     <string name="password">Password</string>
     <string name="email">Email</string>
-    <string name="enter_password">Password</string>
-    <string name="new_sign_up">Don\'t have an account? Sign up</string>
-    <string name="text_enter_email">Enter your email</string>
-    <string name="text_enter_password">Enter your password</string>
-    <string name="text_enter_password_check">Enter your password again</string>
+
+
+    <string name="text_enter_email">Email</string>
+    <string name="text_enter_password">Password</string>
+    <string name="text_enter_forename">First name</string>
+    <string name="text_enter_surname">Last name</string>
+    <string name="text_reenter_password">Reenter password</string>
+
+
     <string name="title_activity_main_view">MainView</string>
+
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -33,4 +42,16 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="map">Map</string>
+    <string name="text_enter_date_of_birth">Date of birth</string>
+    <string name="text_enter_username">Username</string>
+    <string name="button_male">Male</string>
+    <string name="button_female">Female</string>
+    <string name="button_next">Next</string>
+    <string name="text_car_info">Imput car information</string>
+    <string name="text_input_car_model">Model</string>
+    <string name="text_input_car_make">Make</string>
+    <string name="text_input_car_registration_num">Registration number</string>
+    <string name="button_submit">Submit</string>>
+
+
 </resources>
