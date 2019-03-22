@@ -1,44 +1,22 @@
 package com.example.demo_10;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.Button;
+import android.view.ViewGroup;
 
-public class ViewPastIncidents extends AppCompatActivity {
-
-    //declaring buttons
-    private Button viewInc;
-    private Button toMenu;
-
+public class ViewPastIncidents extends Fragment {
+    @Nullable
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_view_pat_incidents);
-
-        //setting buttons to their id's
-        viewInc = (Button)findViewById(R.id.b_rand_inc);
-        toMenu = (Button)findViewById(R.id.b_to_menu);
-
-        //setting listeners for buttons
-        viewInc.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent add = new Intent(ViewPastIncidents.this, RandomIncident.class);
-                startActivity(add);
-            }
-        });
-        toMenu.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent menu = new Intent(ViewPastIncidents.this, Menu.class);
-                startActivity(menu);
-            }
-        });
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.view_pat_incidents,null);
     }
 
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+    }
 }

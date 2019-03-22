@@ -14,7 +14,7 @@ public class RandomIncident extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_random_incident);
+        setContentView(R.layout.random_incident);
 
         //setting buttons to their id's
         toMenu = (Button)findViewById(R.id.b_to_menu);
@@ -23,7 +23,7 @@ public class RandomIncident extends AppCompatActivity {
         toMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent menu = new Intent(RandomIncident.this, Menu.class);
+                Intent menu = new Intent(RandomIncident.this, LoggedInMain.class);
                 startActivity(menu);
             }
         });

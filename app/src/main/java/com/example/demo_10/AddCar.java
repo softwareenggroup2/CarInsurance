@@ -14,7 +14,7 @@ public class AddCar extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_car);
+        setContentView(R.layout.add_car);
 
         //setting buttons to their id's
         toMenu = (Button)findViewById(R.id.b_to_menu);
@@ -23,7 +23,7 @@ public class AddCar extends AppCompatActivity {
         toMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent menu = new Intent(AddCar.this, Menu.class);
+                Intent menu = new Intent(AddCar.this, LoggedInMain.class);
                 startActivity(menu);
             }
         });

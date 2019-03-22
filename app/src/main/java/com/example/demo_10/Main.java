@@ -27,7 +27,7 @@ public class Main extends AppCompatActivity {
         logIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent menu = new Intent(Main.this, Menu.class);
+                Intent menu = new Intent(Main.this, LoggedInMain.class);
                 startActivity(menu);
             }
         });
