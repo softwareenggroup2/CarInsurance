@@ -31,8 +31,16 @@ public class LoggedInMain extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "New Incident", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+                Fragment incident = new LogNewIncident();
+
+                FragmentManager incidentManager = getSupportFragmentManager();
+                FragmentTransaction incidentTransaction = incidentManager.beginTransaction();
+
+                incidentTransaction.replace(R.id.screen,incident);
+                incidentTransaction.commit();
+
             }
         });
 
