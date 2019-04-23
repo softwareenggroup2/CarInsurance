@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "504813067330",
+    "firebase_url": "https://crashalytics-c59ff.firebaseio.com",
+    "project_id": "crashalytics-c59ff",
+    "storage_bucket": "crashalytics-c59ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504813067330:android:d2a2fcd9d7c411f4",
+        "android_client_info": {
+          "package_name": "com.example.demo_10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504813067330-0j06256ccj9h67o2j9btqd6ommhhpsdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb1twhhDy6oNpznRi5ky998VDwOeti8Q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504813067330-0j06256ccj9h67o2j9btqd6ommhhpsdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
