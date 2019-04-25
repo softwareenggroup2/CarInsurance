@@ -18,6 +18,7 @@ public class MyInformation extends AppCompatActivity implements View.OnClickList
     //view objects
     private TextView textViewUserEmail;
     private Button buttonLogout;
+    private Button buttonMenu;
 
 
     @Override
@@ -43,6 +44,14 @@ public class MyInformation extends AppCompatActivity implements View.OnClickList
         //initializing views
         textViewUserEmail = (TextView) findViewById(R.id.textViewUserEmail);
         buttonLogout = (Button) findViewById(R.id.buttonLogout);
+        buttonMenu = (Button) findViewById(R.id.buttonMenu);
+        buttonMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goMenu = new Intent(MyInformation.this, AddCar.class);
+                startActivity(goMenu);
+            }
+        });
 
         //displaying logged in user name
         textViewUserEmail.setText("Welcome "+user.getEmail());
@@ -54,7 +63,7 @@ public class MyInformation extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View view) {
         //if logout is pressed
-        if(view == buttonLogout){
+        if (view == buttonLogout) {
             //logging out the user
             firebaseAuth.signOut();
             //closing activity
