@@ -6,18 +6,29 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class Main extends AppCompatActivity {
 
     //TESTING THAT GIT CONNECTION IS WORKING.
     //declaring click ons
-   private Button logIn;
-   private TextView signIn;
+    private Button logIn;
+    private TextView signIn;
+    private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_log);
+
+
+        // Initialise Firebase Auth
+        mAuth = FirebaseAuth.getInstance();
+
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+        updateUI(currentUser);
 
         //setting buttons to their id's
         logIn = (Button) findViewById(R.id.b_login);
@@ -42,4 +53,10 @@ public class Main extends AppCompatActivity {
 
     }
 
+    private void updateUI(FirebaseUser currentUser) {
+        Toast.makeText(getBaseContext(), "This is my Toast message!",
+                Toast.LENGTH_LONG).show();
+
+    }
+    
 }

@@ -5,7 +5,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.group2.car_insurace_project"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -31,6 +31,8 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads:17.2.0'
     implementation 'android.arch.navigation:navigation-fragment:1.0.0'
     implementation 'com.google.firebase:firebase-core:16.0.9'
+    implementation 'com.google.firebase:firebase-auth:17.0.0'
+    implementation "com.google.android.gms:play-services-gcm:16.1.0"
 }
 
 
