@@ -20,9 +20,16 @@ public class AddCar extends FragmentActivity {
         return inflater.inflate(R.layout.add_car,null);
     }
 
+<<<<<<< HEAD
 
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         //super.onViewCreated(view, savedInstanceState);
+=======
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+>>>>>>> parent of 7cad7a0... start declaring fields
 
     }
 }

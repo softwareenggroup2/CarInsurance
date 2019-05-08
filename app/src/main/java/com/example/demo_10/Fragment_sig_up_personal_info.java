@@ -9,11 +9,8 @@ import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 
 public class Fragment_sig_up_personal_info extends Fragment {
-
-    EditText UserName;
 
     @Nullable
     @Override
@@ -22,7 +19,7 @@ public class Fragment_sig_up_personal_info extends Fragment {
     }
 
     @Override
-    public void onViewCreated(@NonNull final View view, @Nullable Bundle savedInstanceState) {
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
         view.findViewById(R.id.b_signup_next).setOnClickListener(new View.OnClickListener() {
@@ -35,11 +32,6 @@ public class Fragment_sig_up_personal_info extends Fragment {
 
                 fragmentTransaction.replace(R.id.sign_up_frame,fragment);
                 fragmentTransaction.commit();
-
-                UserName = view.findViewById(R.id.field_enter_username);
-
-
-
             }
         });
 
