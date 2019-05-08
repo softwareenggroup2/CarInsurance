@@ -14,13 +14,13 @@
             android:label="@string/title_activity___main_login"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name="com.example.group2.car_insurace_project.LoggedInMain"
+            android:name="com.example.car_insurace_project.LoggedInMain"
             android:label="@string/title_activity_main_view"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.group2.car_insurace_project.RandomIncident" />
-        <activity android:name="com.example.group2.car_insurace_project.AddCar" />
-        <activity android:name="com.example.group2.car_insurace_project.SignUp" />
-        <activity android:name="com.example.group2.car_insurace_project.Main">
+        <activity android:name="com.example.car_insurace_project.RandomIncident" />
+        <activity android:name="com.example.car_insurace_project.AddCar" />
+        <activity android:name="com.example.car_insurace_project.SignUp" />
+        <activity android:name="com.example.car_insurace_project.Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
