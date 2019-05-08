@@ -1,4 +1,4 @@
-package com.example.car_insurace_project;
+package com.example.demo_10;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

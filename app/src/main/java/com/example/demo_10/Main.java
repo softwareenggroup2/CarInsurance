@@ -1,4 +1,4 @@
-package com.example.car_insurace_project;
+package com.example.demo_10;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -58,5 +58,5 @@ public class Main extends AppCompatActivity {
                 Toast.LENGTH_LONG).show();
 
     }
-
+    
 }

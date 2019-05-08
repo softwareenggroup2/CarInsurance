@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.car_insurace_project">
+    package="com.example.demo_10">
 
     <application
         android:allowBackup="true"
@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+<<<<<<< HEAD
             android:name="._MainLogin"
             android:label="@string/title_activity___main_login"
             android:theme="@style/AppTheme.NoActionBar"></activity>
@@ -21,6 +22,15 @@
         <activity android:name="com.example.car_insurace_project.AddCar" />
         <activity android:name="com.example.car_insurace_project.SignUp" />
         <activity android:name="com.example.car_insurace_project.Main">
+=======
+            android:name=".LoggedInMain"
+            android:label="@string/title_activity_main_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".RandomIncident" />
+        <activity android:name=".AddCar" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Main">
+>>>>>>> parent of a396b9c... Implemented Authentication on Login
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,5 +42,7 @@
             android:name="com.google.android.gms.ads.AD_MANAGER_APP"
             android:value="true" />
     </application>
+
+
 
 </manifest>
