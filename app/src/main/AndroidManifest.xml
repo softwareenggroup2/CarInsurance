@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.demo_10">
+    package="com.example.car_insurace_project">
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".LoggedInMain"
-            android:label="@string/title_activity_main_view"
+            android:name="._MainLogin"
+            android:label="@string/title_activity___main_login"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".RandomIncident" />
-        <activity android:name=".AddCar" />
-        <activity android:name=".SignUp" />
-        <activity android:name=".Main">
+        <activity
+            android:name="com.example.group2.car_insurace_project.LoggedInMain"
+            android:label="@string/title_activity_main_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.group2.car_insurace_project.RandomIncident" />
+        <activity android:name="com.example.group2.car_insurace_project.AddCar" />
+        <activity android:name="com.example.group2.car_insurace_project.SignUp" />
+        <activity android:name="com.example.group2.car_insurace_project.Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,7 +32,5 @@
             android:name="com.google.android.gms.ads.AD_MANAGER_APP"
             android:value="true" />
     </application>
-
-
 
 </manifest>

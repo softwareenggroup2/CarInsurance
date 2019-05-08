@@ -1,4 +1,4 @@
-package com.example.demo_10;
+package com.example.car_insurace_project;
 
 import org.junit.Test;
 

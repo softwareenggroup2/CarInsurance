@@ -1,4 +1,4 @@
-package com.example.demo_10;
+package com.example.car_insurace_project;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -8,12 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class MyInformation extends Fragment {
+public class LogNewIncident extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.my_information,null);
+        return inflater.inflate(R.layout.log_new_incident,null);
     }
 
     @Override
