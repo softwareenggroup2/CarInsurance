@@ -42,4 +42,13 @@ public class Main extends AppCompatActivity {
 
     }
 
+<<<<<<< HEAD:app/src/main/java/com/example/demo_10/Main.java
+=======
+    private void updateUI(FirebaseUser currentUser) {
+        Toast.makeText(getBaseContext(), "This is my Toast message!",
+                Toast.LENGTH_LONG).show();
+
+    }
+    
+>>>>>>> parent of a396b9c... Implemented Authentication on Login:app/src/main/java/com/example/demo_10/Main.java
 }
